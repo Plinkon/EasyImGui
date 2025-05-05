@@ -16,7 +16,7 @@ namespace CONFIG {
     bool IsRunning = false; // DO NOT CHANGE THIS, changing this will make ImGui not run
 
     /*---WINDOW SETTINGS (not imgui window)---*/
-    const bool useTransparentWindow = true; // Wether or not the background window, NOT the ImGui window, is transparent and has no title bar and such
+    const bool useTransparentWindow = false; // Wether or not the background window, NOT the ImGui window, is transparent and has no title bar and such
     const WCHAR* WindowName = L"Easy ImGui"; // The application name, NOT ImGui window name
     const int WindowWidth = 1280; // How wide the window is 
     const int WindowHeight = 720; // How tall the window is
